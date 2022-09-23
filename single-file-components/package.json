@@ -1,5 +1,5 @@
 {
-  "name": "basic-project",
+  "name": "single-file-components",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
