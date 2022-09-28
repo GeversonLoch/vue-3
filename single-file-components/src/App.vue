@@ -16,7 +16,24 @@ export default {
     de um componente Vue em um único arquivo.
   </p>
 
-  <Hyperlink></Hyperlink>
+  <!-- Tag do componente Hyperlink -->
+  <Hyperlink/>
+
+  <p>
+    Os aplicativos Vue são organizados em uma árvore de componentes aninhados e reutilizáveis.<br>
+    Por exemplo, a árvore de componentes de um aplicativo To-Do pode ter esta aparência:
+  </p>
+
+  <textarea v-pre disabled style="width: 624px; height: 155px;">
+    App (root component)
+    ├─ TodoList
+    │  └─ TodoItem
+    │     ├─ TodoDeleteButton
+    │     └─ TodoEditButton
+    └─ TodoFooter
+       ├─ TodoClearButton
+       └─ TodoStatistics
+  </textarea>
 
 </template>
 
