@@ -1,4 +1,4 @@
-# Vue 3
+# Vue 3 - Options API
 
 ## Projects Setup
 
