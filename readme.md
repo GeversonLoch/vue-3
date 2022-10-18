@@ -23,3 +23,4 @@ $ npm run dev
 3. reactivity-state-fundamentals
 4. template-syntax
 5. conditional-rendering
+6. computed-properties
